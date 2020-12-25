@@ -72,11 +72,6 @@ function updateSec() {
 
 
 function updateMin() {
-    if (counterForMin >= 60) {
-        alert("time has passed the 60 minute time limit")
-        resetFunc();
-    } else {
         counterForMin++;
         min.innerHTML = counterForMin;
-    }
 }
